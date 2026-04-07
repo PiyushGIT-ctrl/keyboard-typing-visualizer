@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Typer</title>
+    <style>
+        @font-face {
+            font-family: Gilroy;
+            src: url(./Gilroy-font.ttf);
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Gilroy, sans-serif;
+        }
+
+        html,body {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            background-color: #222;
+        }
+        h1 {
+            color: #555;
+            font-size: 10rem;
+            user-select: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h1>a</h1>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
